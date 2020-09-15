@@ -22,13 +22,13 @@
                             </video>
                         </div>  
                         
-                        <img class="iphoneScreen" src="/assets/screenshot/phone.png" alt="screenshot">
+                        <img class="iphoneScreen" src="{{ 'assets/screenshot/phone.png' | relative_url }}" alt="screenshot">
 
                     </div>
                     {% endif %}
                     {% if page.platform == 'desktop' %}
                     <div class="desktopPreview">                        
-                        <img class="desktopScreen" src="/assets/screenshot/desktop.jpg" alt="screenshot">
+                        <img class="desktopScreen" src="{{ 'assets/screenshot/desktop.jpg' | relative_url }}" alt="screenshot">
                     </div>
                     {% endif %}
                     <div class="appInfo">
@@ -40,7 +40,7 @@
                                     </clipPath>
                                 </defs>
                             </svg>
-                            <img class="appIconLarge" src="{{ page.app_icon }}">
+                            <img class="appIconLarge" src="{{ page.app_icon | relative_url }}">
                         </div>
                         <div class="appNamePriceContainer">
                             <h1 class="appName">
@@ -57,13 +57,13 @@
                         </div>
                         <div class="downloadButtonsContainer">
                             {% if page.playstore_link %}
-                                <a class="playStoreLink" href="{{page.playstore_link}}"><img class="playStore" src="/assets/platforms/playstore.png"></a>
+                                <a class="playStoreLink" href="{{page.playstore_link}}"><img class="playStore" src="{{ 'assets/platforms/playstore.png' | relative_url }}"></a>
                             {% endif %}
                             {% if page.appstore_link %}
-                                <a class="appStoreLink" href="{{page.appstore_link}}"><img class="appStore" src="/assets/platforms/appstore.png"></a>
+                                <a class="appStoreLink" href="{{page.appstore_link}}"><img class="appStore" src="{{ 'assets/platforms/appstore.png' | relative_url }}"></a>
                             {% endif %}
                             {% if page.windows_link %}
-                                <a class="playStoreLink" href="{{page.windows_link}}"><img class="playStore" src="/assets/platforms/windows.png"></a>
+                                <a class="playStoreLink" href="{{page.windows_link}}"><img class="playStore" src="{{ 'assets/platforms/windows.png' | relative_url }}"></a>
                             {% endif %}
                         </div>
                     </div>

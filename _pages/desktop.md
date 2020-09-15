@@ -4,7 +4,7 @@ title: Desktop App
 include_in_header: true
 
 platform: desktop
-app_icon: /assets/icons/icon.jpg
+app_icon: assets/icons/icon.jpg
 app_name: Plotagon Desktop
 app_price: 
 app_description: Turn Text into Film
@@ -27,7 +27,7 @@ features:
 
 ---
 
-![Screenshot](/assets/screenshot/screenshot-conference.jpg)
+![Screenshot]({{ 'assets/screenshot/screenshot-conference.jpg' | relative_url }})
 
 # Animation that stands out
 

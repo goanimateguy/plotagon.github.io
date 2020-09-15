@@ -1,8 +1,9 @@
 page_title: Plotagon
+baseurl: /website/
 
 ios_app_id: 883190178
 
-app_icon: /assets/icons/icon.jpg
+app_icon: assets/icons/icon.jpg
 company_name: Plotagon
 enable_smart_app_banner: true # Enable smart banner at top of page on mobile devices.
 

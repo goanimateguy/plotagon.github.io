@@ -9,9 +9,9 @@
 				</defs>
 			</svg>
 			{% if page.url != '/' %}
-				<a href="../" target="_self"><img class="headerIcon" src="{{ site.app_icon }}"></a>
+				<a href="../" target="_self"><img class="headerIcon" src="{{ site.app_icon | relative_url }}"></a>
 			{% else %}
-				<img class="headerIcon" src="{{ site.app_icon }}">
+				<img class="headerIcon" src="{{ site.app_icon | relative_url }}">
 			{% endif %}
 			<div class="divider"></div>
 		</div>
@@ -25,7 +25,7 @@
 				{% endif %}
 			{% endfor %}
 			{% for item in page.links %}
-				<li><a href="{{ item.url }}" target="_self">{{ item.title }}</a></li>
+				<li><a href="{{ item.url | relative_url }}" target="_self">{{ item.title }}</a></li>
 			{% endfor %}
 		</ul>
 	</nav>
