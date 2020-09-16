@@ -3,7 +3,7 @@ layout: default
 title: Desktop App
 
 platform: desktop
-app_icon: assets/icons/icon.jpg
+app_icon: assets/icons/desktop-icon.png
 app_name: Plotagon Desktop
 app_price: 
 app_description:
