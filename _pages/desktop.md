@@ -31,15 +31,12 @@ features:
 
   - title                 : Animation that stands out
     description           : Make your videos stand out with 3D animation, customizable characters and 200+ original scenes
-    fontawesome_icon_name : magic
     
   - title                 : Write your script, press play
     description           : Plotagon’s easy User Interface let anyone create animated videos in no time
-    fontawesome_icon_name : play
     
   - title                 : Effortless workflow
     description           : Scenes, characters, animations, speech synthesis. Plotagon has every tool you need.
-    fontawesome_icon_name : wrench
 
 references:
   - image: https://d149zt3ttxmfg1.cloudfront.net/plotagon-site/2019/06/amex-200x150.jpg
