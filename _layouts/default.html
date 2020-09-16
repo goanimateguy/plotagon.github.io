@@ -20,10 +20,13 @@ header_icon: assets/icons/company-logo-white.png
 						</clipPath>
 					</svg>
 
-					<div class="videoContainer hidden">
+					{% if page.video_url %}
+					<div class="videoContainer">
 						<video class="screenvideo" autoplay="autoplay" controls="controls">
+							<source src="{{ page.video_url | relative_url }}" type="{{ video_mimetype }}">
 						</video>
-					</div>  
+					</div>
+					{% endif %}
 					
 					<img class="iphoneScreen" src="{{ 'assets/screenshot/phone.png' | relative_url }}" alt="screenshot">
 
