@@ -3,7 +3,7 @@ baseurl: /website/
 
 ios_app_id: 883190178
 
-app_icon: assets/icons/company-logo-light.png
+app_icon: assets/icons/company-logo.png
 description: Turn your story into a movie with Plotagon.
 company_name: Plotagon
 enable_smart_app_banner: true # Enable smart banner at top of page on mobile devices.
