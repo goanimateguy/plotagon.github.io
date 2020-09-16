@@ -7,7 +7,7 @@ platform: desktop
 app_icon: assets/icons/icon.jpg
 app_name: Plotagon Desktop
 app_price: 
-app_description: Turn Text into Film
+app_description:
 windows_link: http://www.plotagon.com#download
 
 links: [

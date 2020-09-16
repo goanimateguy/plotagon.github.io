@@ -30,7 +30,7 @@
 	background-color: #fff;
 }
 
-.container {					// Set up the container for the site content
+.container {
 	display: grid;
 	margin: auto;
 	max-width: $content-width;
@@ -42,6 +42,16 @@
 	grid-template-areas:
 		"h h h h h h h h h h h h"
 		"p p p p p i i i i i i i"
+		"c c c c c c c c c c c c"
+		"f f f f f f f f f f f f";
+}
+
+.desktop.container {
+	grid-template-rows: 115px auto auto auto auto;
+	grid-template-areas:
+		"h h h h h h h h h h h h"
+		"i i i i i i i i i i i i"
+		"p p p p p p p p p p p p"
 		"c c c c c c c c c c c c"
 		"f f f f f f f f f f f f";
 }
@@ -103,6 +113,11 @@
 	align-content: flex-start;
 }
 
+.desktop .appInfo {
+	padding-top: 70px;
+	justify-content: center;
+}
+
 @media only screen and (max-width: 992px) {
 
 	.appInfo {
@@ -131,6 +146,10 @@
 	align-items: start;
 	justify-content: center;
 	margin-left: 30px;
+}
+
+.desktop .appNamePriceContainer {
+	margin-right: 60px;
 }
 
 .appName {
@@ -178,6 +197,10 @@
 	color: $app-description-color;
 }
 
+.desktop .appDescription {
+	text-align: center;
+}
+
 @media only screen and (max-width: 992px) {
 
 	.appDescription {
@@ -192,6 +215,10 @@
 	filter: $drop-shadow;
 }
 
+.desktop .downloadButtonsContainer {
+	margin-top: 20px;
+}
+
 @media only screen and (max-width: 992px) {
 
 	.downloadButtonsContainer {
@@ -200,31 +227,23 @@
 	
 }
 
-.playStore {
+.downloadButton {
 	height: 75px;
 	margin-right: 24px;
 }
 
 @media only screen and (max-width: 992px) {
-
-	.playStore {
+	.downloadButton {
 		margin-right: 24px;
 		margin-bottom: 0px;
 	}
-	
 }
 
 @media only screen and (max-width: 528px) {
-
-	.playStore {
+	.downloadButton {
 		margin-right: 0px;
 		margin-bottom: 24px;
 	}
-	
-}
-
-.appStore {
-	height: 75px;
 }
 
 // iPhone Device Preview
@@ -243,6 +262,32 @@
 	clip-path: url(#screenMask);
 	margin-left: 26px;
 	margin-top: 23px;
+}
+
+.desktopPreview {
+	grid-area: p;
+	margin-top: 50px;
+	text-align: center;
+}
+
+.desktopWindowHeader {
+	max-width: 80%;
+  margin: 0 auto;
+	background: #5281ff;
+	padding: 8px;
+	color: white;
+	font-size: 10px;
+	text-align: left;
+}
+.desktopWindowWidgets {
+	float: right;
+}
+.desktopWindowWidgets svg { margin: 0 5px; }
+.desktopScreen {
+	max-width: 80%;
+  margin: 0 auto 50px auto;
+	text-align: center;
+	border: #5281ff solid 1px;
 }
 
 .videoContainer {

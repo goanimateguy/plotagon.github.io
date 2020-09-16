@@ -27,7 +27,21 @@
                     </div>
                     {% endif %}
                     {% if page.platform == 'desktop' %}
-                    <div class="desktopPreview">                        
+                    <div class="desktopPreview">       
+                        <div class="desktopWindowHeader">
+                            Plotagon Studio
+                            <div class="desktopWindowWidgets">
+                                <svg version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="10" height="10">
+                                    <path d="M0 24 L24 24" stroke-width="2" stroke="white"></path>
+                                </svg>
+                                <svg version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="10" height="10">
+                                    <path d="M0 0 L0 24 L24 24 L 24 0Z" stroke-width="2" stroke="white" fill="none"></path>
+                                </svg>
+                                <svg version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="10" height="10">
+                                    <path d="M0 0 L24 24 M24 0 L 0 24" stroke="white"></path>
+                                </svg>
+                            </div>
+                        </div>                 
                         <img class="desktopScreen" src="{{ 'assets/screenshot/desktop.jpg' | relative_url }}" alt="screenshot">
                     </div>
                     {% endif %}
@@ -50,30 +64,27 @@
                                 {{ page.app_price }}
                             </h2>
                         </div>
+                        {% if page.app_description %}
                         <div class="appDescriptionContainer">
                             <p class ="appDescription">
                                 {{ page.app_description }}
                             </p>
                         </div>
+                        {% endif %}
                         <div class="downloadButtonsContainer">
                             {% if page.playstore_link %}
-                                <a class="playStoreLink" href="{{page.playstore_link}}"><img class="playStore" src="{{ 'assets/platforms/playstore.png' | relative_url }}"></a>
+                                <a href="{{page.playstore_link}}"><img class="downloadButton" src="{{ 'assets/platforms/playstore.png' | relative_url }}"></a>
                             {% endif %}
                             {% if page.appstore_link %}
-                                <a class="appStoreLink" href="{{page.appstore_link}}"><img class="appStore" src="{{ 'assets/platforms/appstore.png' | relative_url }}"></a>
+                                <a href="{{page.appstore_link}}"><img class="downloadButton" src="{{ 'assets/platforms/appstore.png' | relative_url }}"></a>
                             {% endif %}
                             {% if page.windows_link %}
-                                <a class="playStoreLink" href="{{page.windows_link}}"><img class="playStore" src="{{ 'assets/platforms/windows.png' | relative_url }}"></a>
+                                <a href="{{page.windows_link}}"><img class="downloadButton" src="{{ 'assets/platforms/windows.png' | relative_url }}"></a>
                             {% endif %}
                         </div>
                     </div>
                     
-                    <div class="grid-section-content">
-                        {% include features.html %}
-                        <article class="section markdown-body">
-                            {{ content }}
-                        </article>
-                    </div>
+                    {% include features.html %}
                     
                     {% include footer.html %}
                 </div>
