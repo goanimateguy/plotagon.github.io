@@ -15,15 +15,45 @@ links: [
   { "url": "/", "title": "Mobile App" }
 ]
 
+prices:
+  - title: Business
+    description: Corporations, companies and other for-profit entities
+    usdYearly: 441
+    eurMonthly: 49
+  - title: Discounted
+    description: Individuals, nonprofit and government organizations
+    usdYearly: 70
+    eurMonthly: 7
+  - title: Academic
+    description: Faculty, staff and students with an academic email
+    usdYearly: 27
+    eurMonthly: 3
+
 features:
 
-  - title                                 : Animation that stands out
-    description                           : Make your videos stand out with 3D animation, customizable characters and 200+ original scenes
-    fontawesome_icon_name                 : magic
+  - title                 : Animation that stands out
+    description           : Make your videos stand out with 3D animation, customizable characters and 200+ original scenes
+    fontawesome_icon_name : magic
     
-  - title                                 : Write your script, press play
-    description                           : Plotagon’s easy User Interface let anyone create animated videos in no time
-    fontawesome_icon_name                 : play
+  - title                 : Write your script, press play
+    description           : Plotagon’s easy User Interface let anyone create animated videos in no time
+    fontawesome_icon_name : play
+    
+  - title                 : Effortless workflow
+    description           : Scenes, characters, animations, speech synthesis. Plotagon has every tool you need.
+    fontawesome_icon_name : wrench
+    
+  - image: https://d149zt3ttxmfg1.cloudfront.net/plotagon-site/2019/06/amex-200x150.jpg
+  - image: https://d149zt3ttxmfg1.cloudfront.net/plotagon-site/2019/06/Berlin-School-200x150.jpg
+  - image: https://d149zt3ttxmfg1.cloudfront.net/plotagon-site/2019/06/edison-200x150.jpg
+  - image: https://d149zt3ttxmfg1.cloudfront.net/plotagon-site/2019/06/hk-airlines-200x150.jpg
+  - image: https://d149zt3ttxmfg1.cloudfront.net/plotagon-site/2019/06/india-times-200x150.jpg
+  - image: https://d149zt3ttxmfg1.cloudfront.net/plotagon-site/2019/06/kaiser-permanente-200x150.jpg
+  - image: https://d149zt3ttxmfg1.cloudfront.net/plotagon-site/2019/06/NYIT-200x150.jpg
+  - image: https://d149zt3ttxmfg1.cloudfront.net/plotagon-site/2019/06/pfizer-200x150.jpg
+  - image: https://d149zt3ttxmfg1.cloudfront.net/plotagon-site/2019/06/rogers-200x150.jpg
+  - image: https://d149zt3ttxmfg1.cloudfront.net/plotagon-site/2019/06/teva200x150.jpg
+  - image: https://d149zt3ttxmfg1.cloudfront.net/plotagon-site/2019/06/western-sydney-200x150.jpg
 
 ---
 

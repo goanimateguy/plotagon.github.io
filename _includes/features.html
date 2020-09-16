@@ -20,6 +20,11 @@
         </div>
     </div>
     {% endif %}
+    {% if feature.image %}
+    <div class="reference">
+        <img src="{{ feature.image }}">
+    </div>
+    {% endif %}
 
     {% endfor %}
 
