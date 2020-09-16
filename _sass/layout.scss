@@ -46,6 +46,10 @@
 		"f f f f f f f f f f f f";
 }
 
+.grid-area-content {
+	grid-area: c;
+}
+
 .desktop.container {
 	grid-template-rows: 115px auto auto auto auto;
 	grid-template-areas:

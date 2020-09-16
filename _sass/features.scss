@@ -1,5 +1,4 @@
 .features {
-	grid-area: c;
 	display: flex;
 	flex: 0 1 auto;
 	align-content: flex-start;
@@ -17,17 +16,6 @@
 	padding-right: 15px;
 	width: calc(100%/3);
 }
-
-.reference {
-	display: flex;
-	justify-content: center;
-	padding-top: 63px;
-	padding-left: 15px;
-	padding-right: 15px;
-	width: calc(100%/6);
-}
-
-.reference img { width: 100% }
 
 .feature:nth-child(-n+3) {
     padding-top: 0px;  
@@ -80,10 +68,6 @@
 		width: 100%;
 	}
 
-	.reference {
-		width: calc(100%/4);
-	}
-
 	.feature:nth-child(-n+3) {
 		padding-top: 41px;  
 	}
@@ -117,10 +101,6 @@
 		padding-left: 0px;
 		padding-right: 0px;
 		width: 100%;
-	}
-
-	.reference {
-		width: calc(100%/2);
 	}
 
 	.feature:nth-child(-n+3) {

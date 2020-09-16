@@ -19,15 +19,15 @@ prices:
   - title: Business
     description: Corporations, companies and other for-profit entities
     usdYearly: 441
-    eurMonthly: 49
+    usdMonthly: 49
   - title: Discounted
     description: Individuals, nonprofit and government organizations
     usdYearly: 70
-    eurMonthly: 7
+    usdMonthly: 7
   - title: Academic
     description: Faculty, staff and students with an academic email
     usdYearly: 27
-    eurMonthly: 3
+    usdMonthly: 3
 
 features:
 
@@ -42,7 +42,8 @@ features:
   - title                 : Effortless workflow
     description           : Scenes, characters, animations, speech synthesis. Plotagon has every tool you need.
     fontawesome_icon_name : wrench
-    
+
+references:
   - image: https://d149zt3ttxmfg1.cloudfront.net/plotagon-site/2019/06/amex-200x150.jpg
   - image: https://d149zt3ttxmfg1.cloudfront.net/plotagon-site/2019/06/Berlin-School-200x150.jpg
   - image: https://d149zt3ttxmfg1.cloudfront.net/plotagon-site/2019/06/edison-200x150.jpg

@@ -1,0 +1,18 @@
+<div class="pricing">
+  <h1>Pricing</h1>
+  <div class="price-matrix">
+
+      {% for item in page.prices %}
+
+      <div class="price-column">
+          <div class="price-cell-title">{{ item.title }}</div>
+          <div class="price-cell-description">{{ item.description }}</div>
+          <div class="price-cell-price"><small>USD</small> {{ item.usdYearly }} / year</div>
+          <div class="price-cell-or">or</div>
+          <div class="price-cell-price"><small>USD</small> {{ item.usdMonthly }} / month</div>
+      </div>
+
+      {% endfor %}
+
+  </div>
+</div>
