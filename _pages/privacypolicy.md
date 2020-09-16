@@ -1,11 +1,6 @@
 ---
 layout: page
 title: Privacy Policy
-include_in_header: false
-
-links: [
-  { "url": "/", "title": "Mobile App" }
-]
 ---
 At Plotagon®, we respect your privacy and your rights to control your personal data. This privacy policy (“Privacy Policy”) explains the data we collect from you, either directly or indirectly, when you use the Plotagon® website (the “Website”) and Plotagon®’s software for desktops, tablets and mobile handsets including Plotagon® Story, Plotagon® Education and Plotagon® Studio (the “Software”) as well as any other service provided by Plotagon®. (the Website and the Software are collectively referred to as the “Services”). The Privacy Policy also explains how your personal data is used and the reasons why we need to use your personal data. By personal data we mean any data that can be used to identify you or that can be linked to you. In this Privacy Policy we also explain the different choices you have about the personal data we collect when using the Services.
 
