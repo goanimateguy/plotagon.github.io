@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Desktop App
-include_in_header: true
 
 platform: desktop
 app_icon: assets/icons/icon.jpg
@@ -11,8 +10,7 @@ app_description:
 windows_link: http://www.plotagon.com#download
 
 links: [
-  { "url": "https://admin.plotagon.com", "title": "Login" },
-  { "url": "/", "title": "Mobile App" }
+  { "url": "https://admin.plotagon.com", "title": "Login" }
 ]
 
 prices:

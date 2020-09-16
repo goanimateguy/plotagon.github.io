@@ -19,13 +19,13 @@
 	</div>
 	<nav class="scroll">
 		<ul page-url="{{page.url}}">
-			{% for item in site.pages %}
-				{% if item.include_in_header == true and page.url != item.url %}
-				<li><a href="{{ item.url | relative_url }}" target="_self">{{ item.title }}</a></li>
-				{% endif %}
-			{% endfor %}
 			{% for item in page.links %}
-				<li><a href="{{ item.url | relative_url }}" target="_self">{{ item.title }}</a></li>
+				<li><a href="{{ item.url | relative_url }}" target="_blank">{{ item.title }}</a></li>
+			{% endfor %}
+			{% for item in site.links %}
+				<li {% if page.url == item.url %}class=active{% endif %}>
+					<a href="{{ item.url | relative_url }}" target="_self">{{ item.title }}</a>
+				</li>
 			{% endfor %}
 		</ul>
 	</nav>

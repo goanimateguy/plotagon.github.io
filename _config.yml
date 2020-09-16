@@ -8,6 +8,16 @@ description: Turn your story into a movie with Plotagon.
 company_name: Plotagon
 enable_smart_app_banner: true # Enable smart banner at top of page on mobile devices.
 
+links: [
+  { "url": "/", "title": "Mobile App" },
+  { "url": "/desktop/", "title": "Desktop App" }
+]
+
+footer_links: [
+  { "url": "/about/", "title": "About" },
+  { "url": "/privacypolicy/", "title": "Privacy Policy" }
+]
+
 email_address: 
 facebook_username:
 instagram_username:

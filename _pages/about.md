@@ -1,11 +1,6 @@
 ---
 layout: page
 title: About
-include_in_header: false
-
-links: [
-  { "url": "/", "title": "Mobile App" }
-]
 ---
 
 Plotagon was founded with the dream to turn every keyboard into a magical typewriter that converts ideas into videos through the combined power of technology and animation. Plotagon’s original visual style evolved into today’s distinctive look, but the method has remained unchanged: computer gaming technology + classic film production + old-fashioned screenwriting
