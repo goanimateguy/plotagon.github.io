@@ -60,7 +60,7 @@ header_icon: assets/icons/company-logo-white.png
 								</clipPath>
 							</defs>
 						</svg>
-						<img class="appIconLarge" src="{{ page.app_icon | relative_url }}">
+						<img class="appIconLarge" src="{{ page.app_icon | relative_url }}" alt="App icon">
 					</div>
 					<div class="appNamePriceContainer">
 						<h1 class="appName">
@@ -79,13 +79,13 @@ header_icon: assets/icons/company-logo-white.png
 					{% endif %}
 					<div class="downloadButtonsContainer">
 						{% if page.playstore_link %}
-							<a href="{{page.playstore_link}}"><img class="downloadButton" src="{{ 'assets/platforms/playstore.png' | relative_url }}"></a>
+							<a href="{{page.playstore_link}}"><img class="downloadButton" src="{{ 'assets/platforms/playstore.png' | relative_url }}" alt="google play store link"></a>
 						{% endif %}
 						{% if page.appstore_link %}
-							<a href="{{page.appstore_link}}"><img class="downloadButton" src="{{ 'assets/platforms/appstore.png' | relative_url }}"></a>
+							<a href="{{page.appstore_link}}"><img class="downloadButton" src="{{ 'assets/platforms/appstore.png' | relative_url }}" alt="appstore link"></a>
 						{% endif %}
 						{% if page.windows_link %}
-							<a href="{{page.windows_link}}"><img class="downloadButton" src="{{ 'assets/platforms/windows.png' | relative_url }}"></a>
+							<a href="{{page.windows_link}}"><img class="downloadButton" src="{{ 'assets/platforms/windows.png' | relative_url }}" alt="download link"></a>
 						{% endif %}
 					</div>
 				</div>
