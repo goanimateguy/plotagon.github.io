@@ -35,7 +35,7 @@ cover_overlay                             : "linear-gradient(-30deg, #618ea0, #3
 
 device_color                              : black       # blue, black, yellow, coral or white.
 body_background_color                     : "#ffffff"
-link_color                                : "#d74569"
+link_color                                : "#9a2a46"
 app_title_color                           : "#ffffff"
 app_price_color                           : "#ffffff"
 app_description_color                     : "#ffffff"
