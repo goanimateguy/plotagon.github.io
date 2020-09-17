@@ -3,29 +3,32 @@ layout: page
 title: About
 ---
 
-Plotagon was founded with the dream to turn every keyboard into a magical typewriter that converts ideas into videos through the combined power of technology and animation. Plotagon’s original visual style evolved into today’s distinctive look, but the method has remained unchanged: computer gaming technology + classic film production + old-fashioned screenwriting
+# About Plotagon AB
 
-Since then, over 1.6 million people and counting have used Plotagon to express themselves and enrich the lives of friends, loved ones and strangers alike. Along the way, these same users have redefined Plotagon and turned it into something much greater.
+Plotagon was founded in 2013 with the dream to turn every keyboard into a magical typewriter that converts ideas into videos through the combined power of technology and animation.
 
-Today, a global community of teachers, professors, tutors, corporate trainers and citizens uses animation to educate students, employees, colleagues and the public at large. This knowledge transfer takes place in physical classrooms, on mobile devices and in virtual elearning portals. Plotagon is proud to help these professionals mint and distribute the twenty-first century’s greatest currency of all: **Education**
+Our unique method is a combination of gaming technology + classic film production + old-fashioned screenwriting.
 
-# About Plotagon
+- Since launching our software, over 3 million people have used Plotagon to express themselves.
+- Over 15 million films have been created which in turn have enriched countless of people.
 
-- Founded in 2013. Privately held.
-- CEO and Chief Evangelist Filip Grufman.
-- Headquartered in the Norrmalm district of the beautiful archipelago of Stockholm, Sweden.
-- 10 key personnel on 3 continents, including developers, growth marketers, content creators and executives.
-- Board of Directors includes some of the most experienced investors, entrepreneurs, technologists and media professionals in Scandinavia.
+Along the way, these same users have redefined Plotagon and turned it into something much greater than we ever could imagine back in 2014 when we launched the first version of Plotagon.
+
+Today, a global community of citizens including, Influencers, storytellers, teachers, and corporate trainers use Plotagon to tell stories and to educate students, employees, colleagues and the public at large.
+
+We are very proud to be a part of this movement of user generated content.
+
+_TEAM PLOTAGON_
 
 # Contact
 
-## Plotagon Studio
+**Plotagon Studio**  
 business@plotagon.com
 
-## Investor Relations
+**Investor Relations**  
 filip.grufman@plotagon.com
 
-## Address
+**Address**  
 Plotagon AB  
 Wallingatan 18  
 111 24 Stockholm, Sweden  
