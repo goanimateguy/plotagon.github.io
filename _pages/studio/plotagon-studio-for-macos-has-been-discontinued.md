@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Plotagon for MacOS discontinued
+title: Plotagon and MacOS Catalina
 ---
 
 # Plotagon Studio for MacOS has been discontinued
@@ -35,12 +35,11 @@ If you already have upgraded your Mac to Catalina and are unable to start the ap
       5. Enter into search bar: %appdata
       %..\\roaming\\Plotagon Studio\_DATAPATH
       6. There will be a .json file, open this with notepad, and the path for your specific user will be in the file.
-
-  1. Connect the USB stick or network drive to your Windows computer.
-  2. Copy the contents of the source folders in the USB stick or network drive over to the Windows computer:
-    * Plotagon characters are in the **Bundles** subfolder. Copy the contents of the Bundles folder in the source folder and place them in the /**Bundles** destination subfolder.
-    * Plotagon scripts (“plots”) are in the **Plots** subfolder. Copy the contents of the Plots source folder and place them in the **/Plots** destination subfolder.
-  3. Restart the Plotagon Studio application and log in. (You can use the same Plotagon username and password. All your old characters and scripts will be present. Open the scripts and hit the play button to be sure everything has worked properly! When you are positive that you have successfully transferred over your characters and scripts, then you can delete the **Documents > Plotagon Studio** folder from your Mac.
+  4. Connect the USB stick or network drive to your Windows computer.
+  5. Copy the contents of the source folders in the USB stick or network drive over to the Windows computer:
+      1. Plotagon characters are in the **Bundles** subfolder. Copy the contents of the Bundles folder in the source folder and place them in the /**Bundles** destination subfolder.
+      2. Plotagon scripts (“plots”) are in the **Plots** subfolder. Copy the contents of the Plots source folder and place them in the **/Plots** destination subfolder.
+  6. Restart the Plotagon Studio application and log in. (You can use the same Plotagon username and password. All your old characters and scripts will be present. Open the scripts and hit the play button to be sure everything has worked properly! When you are positive that you have successfully transferred over your characters and scripts, then you can delete the **Documents > Plotagon Studio** folder from your Mac.
 
 ## Option 3: Contact us
 Email Plotagon and describe your situation. Be sure to include the email address that is associated with your Plotagon Studio account. We will be happy to assist you.
