@@ -7,6 +7,8 @@ company_name: Plotagon
 ios_app_id: 883190178
 enable_smart_app_banner: true
 
+google_tag_id: GTM-KJCXG9J
+
 links: [
   { "url": "/", "title": "Mobile App" },
   { "url": "/desktop/", "title": "Desktop App" }
