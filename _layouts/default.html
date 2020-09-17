@@ -20,15 +20,16 @@ header_icon: assets/icons/company-logo-white.png
 						</clipPath>
 					</svg>
 
-					{% if page.video_url %}
+					<img class="iphoneScreen" src="{{ 'assets/screenshot/phone.png' | relative_url }}" alt="screenshot">
+
+					{% if page.video_mp4 and page.video_ogg %}
 					<div class="videoContainer">
-						<video class="screenvideo" autoplay="autoplay" controls="controls">
-							<source src="{{ page.video_url | relative_url }}" type="{{ video_mimetype }}">
+						<video class="screenvideo" autoplay muted controls loop>
+							<source src="{{ page.video_mp4 | relative_url }}" type="video/mp4">
+							<source src="{{ page.video_ogg | relative_url }}" type="video/ogg">
 						</video>
 					</div>
 					{% endif %}
-					
-					<img class="iphoneScreen" src="{{ 'assets/screenshot/phone.png' | relative_url }}" alt="screenshot">
 
 				</div>
 				{% endif %}

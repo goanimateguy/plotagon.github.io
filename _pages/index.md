@@ -1,4 +1,5 @@
 ---
+permalink: /
 layout: default
 
 platform: phone
@@ -6,6 +7,9 @@ app_icon: /assets/icons/icon.jpg
 app_name: Plotagon Story
 app_price:
 app_description: Turn Text into Film
+
+video_mp4: https://plotagon-assets.s3.amazonaws.com/videos/app-video.mp4
+video_ogg: https://plotagon-assets.s3.amazonaws.com/videos/app-video.ogg
 
 appstore_link: https://apps.apple.com/us/app/plotagon-story/id883190178?uo=4
 playstore_link: https://play.google.com/store/apps/details?id=com.plotagon.plotagon&hl=en_SG

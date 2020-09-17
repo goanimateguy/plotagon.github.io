@@ -247,6 +247,7 @@
 
 .iphonePreview {
 	grid-area: p;
+	position: relative;
 	background-image: url($device-color);
 	background-size: 400px auto;
 	background-repeat: no-repeat;
@@ -254,6 +255,8 @@
 }
 
 .iphoneScreen {
+	position: absolute;
+	top: 0;
 	width: 349px;
 	-webkit-clip-path: url(#screenMask);
 	clip-path: url(#screenMask);
@@ -288,6 +291,8 @@
 }
 
 .videoContainer {
+	position: relative;
+	top: 0;
 	width: 349px;
 	height: 755px;
 	-webkit-clip-path: url(#screenMask);
