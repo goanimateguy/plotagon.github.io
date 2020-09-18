@@ -9,9 +9,6 @@ Plotagon was founded in 2013 with the dream to turn every keyboard into a magica
 
 Our unique method is a combination of gaming technology + classic film production + old-fashioned screenwriting.
 
-- Since launching our software, over 3 million people have used Plotagon to express themselves.
-- Over 15 million films have been created which in turn have enriched countless of people.
-
 Along the way, these same users have redefined Plotagon and turned it into something much greater than we ever could imagine back in 2014 when we launched the first version of Plotagon.
 
 Today, a global community of citizens including, Influencers, storytellers, teachers, and corporate trainers use Plotagon to tell stories and to educate students, employees, colleagues and the public at large.

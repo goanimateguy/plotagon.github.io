@@ -4,7 +4,7 @@ title: Desktop App
 
 platform: desktop
 app_icon: assets/icons/desktop-icon.png
-app_name: Plotagon Desktop
+app_name: Plotagon Studio
 app_price: 
 app_description:
 windows_link: https://plotagon.com/wp-content/uploads/plotagon-downloads/Plotagon%20Studio-1-10-5.exe
