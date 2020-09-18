@@ -86,8 +86,9 @@
 	grid-column: 3/11;
 }
 
-.section {
-	margin: 50px 15%;
+.markdown-body.page-larger {
+	margin: 120px 115px;
+	font-size: 20px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -96,6 +97,10 @@
 		margin-top: 30px;
 		margin-bottom: 70px;
 		grid-column: 1/-1;
+	}
+
+	.markdown-body.page-larger {
+		margin: 120px 35px;
 	}
 	
 }

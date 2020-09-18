@@ -28,15 +28,14 @@ prices:
     usdMonthly: 3
 
 features:
+  - title      : Animation that stands out
+    description: Make your videos stand out with 3D animation, customizable characters and 200+ original scenes
 
-  - title                 : Animation that stands out
-    description           : Make your videos stand out with 3D animation, customizable characters and 200+ original scenes
+  - title      : Write your script, press play
+    description: Plotagon’s easy User Interface let anyone create animated videos in no time
     
-  - title                 : Write your script, press play
-    description           : Plotagon’s easy User Interface let anyone create animated videos in no time
-    
-  - title                 : Effortless workflow
-    description           : Scenes, characters, animations, speech synthesis. Plotagon has every tool you need.
+  - title      : Effortless workflow
+    description: Scenes, characters, animations, speech synthesis. Plotagon has every tool you need.
 
 references:
   - image: https://d149zt3ttxmfg1.cloudfront.net/plotagon-site/2019/06/amex-200x150.jpg
@@ -53,12 +52,4 @@ references:
 
 ---
 
-![Screenshot]({{ 'assets/screenshot/screenshot-conference.jpg' | relative_url }})
-
-# Animation that stands out
-
-Make your videos stand out with 3D animation, including customizable characters and 200+ original scenes.
-
-# Write your script, press play
-
-Plotagon’s easy User Interface features point-and-click characters and drag-and-drop scripts. Start making animated videos in no time.
+![Screenshot](https://plotagon-assets.s3.amazonaws.com/videos/studio_character_ui.gif)

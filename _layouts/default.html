@@ -98,6 +98,9 @@ header_icon: assets/icons/company-logo-white.png
 				
 				<div class="grid-area-content">
 				{% include features.html %}
+				<article class="page markdown-body page-larger">
+						{{ content }}
+				</article>
 				{% if page.prices %}{% include pricing.html %}{% endif %}
 				{% if page.references %}{% include references.html %}{% endif %}
 				</div>
