@@ -2,11 +2,11 @@
   <h1>Selected customers</h1>
   <div class="references-grid">
 
-    {% for feature in page.references %}
+    {% for item in page.references %}
 
-    {% if feature.image %}
+    {% if item.image %}
     <div class="reference">
-        <img src="{{ feature.image }}">
+        <img src="{{ item.image }}" alt="{{ item.description }}">
     </div>
     {% endif %}
 

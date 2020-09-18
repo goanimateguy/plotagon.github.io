@@ -39,16 +39,27 @@ features:
 
 references:
   - image: https://d149zt3ttxmfg1.cloudfront.net/plotagon-site/2019/06/amex-200x150.jpg
+    description: amex logotype
   - image: https://d149zt3ttxmfg1.cloudfront.net/plotagon-site/2019/06/Berlin-School-200x150.jpg
+    description: Berlin School logotype
   - image: https://d149zt3ttxmfg1.cloudfront.net/plotagon-site/2019/06/edison-200x150.jpg
+    description: edison logotype
   - image: https://d149zt3ttxmfg1.cloudfront.net/plotagon-site/2019/06/hk-airlines-200x150.jpg
+    description: hong kong airlines logotype
   - image: https://d149zt3ttxmfg1.cloudfront.net/plotagon-site/2019/06/india-times-200x150.jpg
+    description: india times logotype
   - image: https://d149zt3ttxmfg1.cloudfront.net/plotagon-site/2019/06/kaiser-permanente-200x150.jpg
+    description: kaiser permanente logotype
   - image: https://d149zt3ttxmfg1.cloudfront.net/plotagon-site/2019/06/NYIT-200x150.jpg
+    description: NYIT logotype
   - image: https://d149zt3ttxmfg1.cloudfront.net/plotagon-site/2019/06/pfizer-200x150.jpg
+    description: pfizer logotype
   - image: https://d149zt3ttxmfg1.cloudfront.net/plotagon-site/2019/06/rogers-200x150.jpg
+    description: rogers logotype
   - image: https://d149zt3ttxmfg1.cloudfront.net/plotagon-site/2019/06/teva200x150.jpg
+    description: teva logotype
   - image: https://d149zt3ttxmfg1.cloudfront.net/plotagon-site/2019/06/western-sydney-200x150.jpg
+    description: western sydney logotype
 
 ---
 
