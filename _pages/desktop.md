@@ -2,6 +2,9 @@
 layout: default
 title: Desktop App
 
+redirect_from:
+  - /studio-desktop-pricing/
+
 platform: desktop
 app_icon: assets/icons/desktop-icon.png
 app_name: Plotagon Studio

@@ -2,6 +2,9 @@
 permalink: /
 layout: default
 
+redirect_from:
+  - /story-mobile-pricing/
+
 platform: phone
 app_icon: /assets/icons/icon.jpg
 app_name: Plotagon Story
