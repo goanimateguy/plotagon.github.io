@@ -16,18 +16,10 @@ links: [
 
 footer_links: [
   { "url": "/about/", "title": "About" },
-  { "url": "/privacypolicy/", "title": "Privacy Policy" },
-  { "url": "/refer/?key=xyz", "title": "(Referrals)" },
-  { "url": "/signup-success/", "title": "(Signup Success)" },
-  { "url": "/studio/plotagon-studio-for-macos-has-been-discontinued/", "title": "(MacOS Catalina)" },
+  { "url": "/privacy-policy/", "title": "Privacy Policy" },
+  { "url": "/commercial-license/", "title": "Commercial License" },
+  { "url": "/terms-of-use/", "title": "Terms of Use" },
 ]
-
-email_address: 
-facebook_username:
-instagram_username:
-twitter_username:
-github_username:
-youtube_username:
 
 # Theme Settings
 topbar_color                              : "#000000"
