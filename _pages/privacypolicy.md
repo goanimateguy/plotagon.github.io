@@ -2,6 +2,8 @@
 layout: page
 title: Privacy Policy
 ---
+# Privacy Policy
+
 At Plotagon®, we respect your privacy and your rights to control your personal data. This privacy policy (“Privacy Policy”) explains the data we collect from you, either directly or indirectly, when you use the Plotagon® website (the “Website”) and Plotagon®’s software for desktops, tablets and mobile handsets including Plotagon® Story, Plotagon® Education and Plotagon® Studio (the “Software”) as well as any other service provided by Plotagon®. (the Website and the Software are collectively referred to as the “Services”). The Privacy Policy also explains how your personal data is used and the reasons why we need to use your personal data. By personal data we mean any data that can be used to identify you or that can be linked to you. In this Privacy Policy we also explain the different choices you have about the personal data we collect when using the Services.
 
 Unless stated otherwise in this Privacy Policy, the same conditions shall apply for Plotagon® Story, Plotagon® Education and Plotagon Studio.
@@ -27,15 +29,14 @@ Profile Information: When you register a Plotagon® account, you will need to pr
 Payment information: If you pay for your use of the Services and/or additional content you will be asked to provide certain personal data so that we can complete your purchase. In order to do so we collect your name, phone number (optional), email address, delivery/shipping address, and payment information.
 Optional Data: When setting up your user profile in Plotagon® you may, depending on the service you are using, choose to provide us with additional personal data such as:
 
-- your real name
-- a profile picture
-- profile description
+* your real name
+* a profile picture
+* profile description
 
 None of this profile information is mandatory, and any information you do provide may be deleted, edited, changed or amended by you at any time by altering your profile information. All such voluntary information is hereinafter referred to as ”Optional Data”.
 
 Information provided when communicating with us: You may provide us with certain personal data if you choose to contact us by email, use any of the web forms on the Website, or contact us by mail or other offline means.
 Survey Information: If you participate in any survey, you will provide certain personal data as part of your response, unless you respond anonymously.
- 
 
 Voluntary information provided by teachers and school administrators as part of Plotagon® Education
 
@@ -45,8 +46,6 @@ Automatically collected information
 There is certain information that we collect automatically as the result of your use of the Services. We may, for example, collect information about the type of device you use to access the Services, the operating system and version, your Internet Protocol (IP) address, your general geographic location, as indicated by your IP address, your browser type, the webpages you view on our websites, whether you interact with content available on our website and how as well as information collected through cookies and similar technology, as described in the section Cookies and Logs below.
 
 We may also collect metadata associated with your use of the Software, which may include content creation date, formatting information; location information such as country, region and city (geotags).
-
- 
 
 Information received from other sources
 
@@ -58,24 +57,20 @@ Plotagon® uses personal data to provide you with the Services, which includes u
 
 In short, Plotagon® uses personal data for the following general purposes:
 
-- Providing the Services
-- Providing customer support
-- Software/service improvements
-- Business Operations
-- Communication, Marketing and Advertising
-- Security, Safety, and Dispute Handling
+* Providing the Services
+* Providing customer support
+* Software/service improvements
+* Business Operations
+* Communication, Marketing and Advertising
+* Security, Safety, and Dispute Handling
 
 Providing the Services
 
 We use personal data to provide, operate, support and improve the Services we offer to ensure that our customers can create stories and other content as seamlessly as possible. Your personal data will also be used in order for you to communicate with other Plotagon® users and to identify you as the creator of the animated stories that you share, the comments that you post and/or the other contributions that you make when using the Services. This processing is necessary for the performance of the agreement we have with you.
 
- 
-
 Providing customer support
 
 We use personal data to respond to customer enquiries, provide customer care and support services. Such support includes but is not limited to technical support. This processing is necessary for the performance of the agreement we have with you, as well as to serve our legitimate interest.
-
- 
 
 Software/service improvements
 
@@ -108,8 +103,6 @@ Legitimate interests
 We may use your personal data for our legitimate interests. For example, we rely on our legitimate interest to analyse and improve the Services and related content, to send you notifications about software updates or information about improvements of the Services or to use your personal data for administrative, fraud detection or legal purposes.
 
 How we may share your personal data
-
- 
 
 General
 
@@ -149,10 +142,10 @@ We do our best to give you as much choice as possible regarding the amount of pe
 
 You can do this in the following ways:
 
-- By asking for a copy of the personal data we hold about you;
-- By informing us of any changes to your personal data, or letting us know if you wish to correct any of the personal data we hold about you;
-- In certain situations, you can ask us to erase, block or restrict the personal data we hold about you, or object to particular ways in which we are using your personal data; and
-- In certain situations, you can also ask us to send the personal data you have given us to a third party.
+* By asking for a copy of the personal data we hold about you;
+* By informing us of any changes to your personal data, or letting us know if you wish to correct any of the personal data we hold about you;
+* In certain situations, you can ask us to erase, block or restrict the personal data we hold about you, or object to particular ways in which we are using your personal data; and
+* In certain situations, you can also ask us to send the personal data you have given us to a third party.
 
 Where we process your personal data based on legitimate interest, you have the right to object at any time to that use of your personal data.
 
@@ -165,8 +158,6 @@ Plotagon® is always committed to handle any request, complaint or concern that 
 Security and data breaches
 
 We use appropriate technical and organisational measures to protect your personal data against unauthorised or unlawful processing and against accidental loss, destruction or damage. Your personal data is stored in a secure manner on protected equipment. For example your data is protected with encryption, such as Transport Layer Security (TLS), during transition over the Internet. Only a limited number of personnel have access to our equipment and only persons with a legitimate reason have access to your personal data. Unfortunately, the transmission of your personal data via the internet is not completely secure. While we will endeavour (through the use of appropriate security measures) to protect your personal data, we cannot guarantee the security of such data when it is transmitted to us via the internet. We also ensure that our third-party data centre vendors provide adequate security measures.
-
- 
 
 Specific requirements for children residing in the United States
 
@@ -194,13 +185,13 @@ Plotagon® makes the following commitments to schools regulated by FERPA: Plotag
 
 Plotagon® specifically agrees with schools regulated by FERPA to:
 
-- use personable identifiable student data for no purpose other than in connection with providing the Services for a legitimate and educational interest;
-- use reasonable methods, consistent with reasonable industry standards to protect student data from re-disclosure and not to share the student data received under this Agreement with any other entity without the prior written approval of the school responsible under FERPA;
-- not to copy reproduce or transmit student data except as necessary to provide the Services in furtherance of a legitimate and educational interest;
-- notify the Chief Information Officer for the school responsible under FERPA without undue delay that it has experienced a data breach, breach of security or unauthorized acquisition or use of student data;
-- to maintain sufficient backup copies of data files in case of customer system failure or any other unseen event resulting in loss of student data;
-- to, upon request of the school responsible under FERPA, promptly provide the school responsible under FERPA with any specified portion of the student data; and
-- to, upon request of the school responsible under FERPA, promptly return and/or erase applicable portions of the student data.
+* use personable identifiable student data for no purpose other than in connection with providing the Services for a legitimate and educational interest;
+* use reasonable methods, consistent with reasonable industry standards to protect student data from re-disclosure and not to share the student data received under this Agreement with any other entity without the prior written approval of the school responsible under FERPA;
+* not to copy reproduce or transmit student data except as necessary to provide the Services in furtherance of a legitimate and educational interest;
+* notify the Chief Information Officer for the school responsible under FERPA without undue delay that it has experienced a data breach, breach of security or unauthorized acquisition or use of student data;
+* to maintain sufficient backup copies of data files in case of customer system failure or any other unseen event resulting in loss of student data;
+* to, upon request of the school responsible under FERPA, promptly provide the school responsible under FERPA with any specified portion of the student data; and
+* to, upon request of the school responsible under FERPA, promptly return and/or erase applicable portions of the student data.
 
 Changes and Updates to this Privacy Policy
 
