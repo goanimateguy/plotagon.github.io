@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: plotagon/website
+  repo: plotagon/plotagon.github.io
   branch: master
 
 collections:
