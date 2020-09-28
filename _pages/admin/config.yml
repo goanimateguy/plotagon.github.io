@@ -1,0 +1,93 @@
+backend:
+  name: github
+  repo: plotagon/website
+  branch: master # Branch to update (optional; defaults to master)
+
+collections:
+  - name: "apps"
+    label: "App Landing Pages"
+    editor:
+      preview: false
+    files:
+      - label: "Mobile"
+        name: "mobile"
+        file: "_pages/index.md"
+        fields:
+          - {label: Layout, name: layout, widget: hidden, default: default}
+          - {label: Title, name: title, widget: string}
+          - {label: Icon, name: app_icon, widget: string }
+          - {label: "App Name", name: app_name, widget: string }
+          - {label: Price, name: app_price, widget: string }
+          - {label: Description, name: app_description, widget: string }
+          - {label: video_mp4, name: video_mp4, widget: string }
+          - {label: video_ogg, name: video_ogg, widget: string }
+          - {label: "Appstore link", name: appstore_link, widget: string }
+          - {label: "Playstore link", name: playstore_link, widget: string }
+          - {
+              label: "Features",
+              name: "features",
+              widget: list,
+              fields: [
+                {label: title, name: title, widget: string },
+                {label: description, name: description, widget: string },
+              ]
+            }
+          - { label: 'Blog post content', name: 'body', widget: 'markdown' }
+      - label: "Desktop"
+        name: "desktop"
+        file: "_pages/desktop.md"
+        fields:
+          - {label: "Layout", name: layout, widget: hidden, default: default}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Icon", name: "app_icon", widget: string }
+          - {label: "App Name", name: "app_name", widget: string }
+          - {label: "Price", name: "app_price", widget: string }
+          - {label: "Description", name: "app_description", widget: string }
+          - {label: "video_mp4", name: "video_mp4", widget: string }
+          - {label: "video_ogg", name: "video_ogg", widget: string }
+          - {label: "windows_link", name: "windows_link", widget: string }
+          - {
+              label: "Features",
+              name: "features",
+              widget: list,
+              fields: [
+                {label: title, name: title, widget: string },
+                {label: description, name: description, widget: string },
+              ]
+            }
+          - {
+              label: "References",
+              name: "references",
+              widget: list,
+              fields: [
+                {label: image, name: image, widget: string },
+                {label: description, name: description, widget: string },
+              ]
+            }
+          - {
+              label: "Prices",
+              name: "prices",
+              widget: list,
+              fields: [
+                {label: title, name: title, widget: string },
+                {label: description, name: description, widget: string },
+                {label: usdYearly, name: usdYearly, widget: number },
+                {label: usdMonthly, name: usdMonthly, widget: number },
+              ]
+            }
+          - { label: 'Blog post content', name: 'body', widget: 'markdown' }
+  - name: "pages"
+    label: "Pages"
+    folder: "_pages"
+    filter: { field: "layout", value: "page" }
+    create: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - {label: "Layout", name: layout, widget: hidden, default: page}
+      - {label: "Title", name: title, widget: string}
+      - { label: "Blog post content", name: body, widget: markdown }
+
+media_folder: 'assets/screenshot'
+
