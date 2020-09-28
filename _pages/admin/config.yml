@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: plotagon/website
-  branch: master # Branch to update (optional; defaults to master)
+  branch: master
 
 collections:
   - name: "apps"
@@ -9,9 +9,9 @@ collections:
     editor:
       preview: false
     files:
-      - label: "Mobile"
-        name: "mobile"
-        file: "_pages/index.md"
+      - label: Mobile
+        name: mobile
+        file: _pages/index.md
         fields:
           - {label: Layout, name: layout, widget: hidden, default: default}
           - {label: Title, name: title, widget: string}
@@ -24,31 +24,31 @@ collections:
           - {label: "Appstore link", name: appstore_link, widget: string }
           - {label: "Playstore link", name: playstore_link, widget: string }
           - {
-              label: "Features",
-              name: "features",
+              label: Features,
+              name: features,
               widget: list,
               fields: [
                 {label: title, name: title, widget: string },
                 {label: description, name: description, widget: string },
               ]
             }
-          - { label: 'Blog post content', name: 'body', widget: 'markdown' }
-      - label: "Desktop"
-        name: "desktop"
-        file: "_pages/desktop.md"
+          - {label: 'Content', name: 'body', widget: 'markdown' }
+      - label: Desktop
+        name: desktop
+        file: _pages/desktop.md
         fields:
           - {label: "Layout", name: layout, widget: hidden, default: default}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Icon", name: "app_icon", widget: string }
-          - {label: "App Name", name: "app_name", widget: string }
-          - {label: "Price", name: "app_price", widget: string }
-          - {label: "Description", name: "app_description", widget: string }
-          - {label: "video_mp4", name: "video_mp4", widget: string }
-          - {label: "video_ogg", name: "video_ogg", widget: string }
-          - {label: "windows_link", name: "windows_link", widget: string }
+          - {label: "Title", name: title, widget: string}
+          - {label: "Icon", name: app_icon, widget: string }
+          - {label: "App Name", name: app_name, widget: string }
+          - {label: "Price", name: app_price, widget: string }
+          - {label: "Description", name: app_description, widget: string }
+          - {label: "video_mp4", name: video_mp4, widget: string }
+          - {label: "video_ogg", name: video_ogg, widget: string }
+          - {label: "windows_link", name: windows_link, widget: string }
           - {
-              label: "Features",
-              name: "features",
+              label: Features,
+              name: features,
               widget: list,
               fields: [
                 {label: title, name: title, widget: string },
@@ -56,8 +56,8 @@ collections:
               ]
             }
           - {
-              label: "References",
-              name: "references",
+              label: References,
+              name: references,
               widget: list,
               fields: [
                 {label: image, name: image, widget: string },
@@ -65,8 +65,8 @@ collections:
               ]
             }
           - {
-              label: "Prices",
-              name: "prices",
+              label: Prices,
+              name: prices,
               widget: list,
               fields: [
                 {label: title, name: title, widget: string },
@@ -75,19 +75,45 @@ collections:
                 {label: usdMonthly, name: usdMonthly, widget: number },
               ]
             }
-          - { label: 'Blog post content', name: 'body', widget: 'markdown' }
-  - name: "pages"
-    label: "Pages"
-    folder: "_pages"
-    filter: { field: "layout", value: "page" }
+          - {label: 'Content', name: 'body', widget: 'markdown' }
+
+  - name: pages
+    label: Pages
+    folder: _pages
+    filter: { field: layout, value: page }
     create: true
     slug: "{{slug}}"
     editor:
       preview: false
     fields:
-      - {label: "Layout", name: layout, widget: hidden, default: page}
-      - {label: "Title", name: title, widget: string}
-      - { label: "Blog post content", name: body, widget: markdown }
+      - {label: Layout, name: layout, widget: hidden, default: page}
+      - {label: Title, name: title, widget: string}
+      - {label: Content, name: body, widget: markdown }
+
+  - name: "studio_pages"
+    label: Studio Pages
+    folder: _pages/studio
+    create: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - {label: Layout, name: layout, widget: hidden, default: page}
+      - {label: Title, name: title, widget: string}
+      - {label: Content, name: body, widget: markdown }
+
+  - name: "refer_pages"
+    label: Referral Pages
+    folder: _pages
+    filter: { field: layout, value: refer }
+    create: false
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - {label: Layout, name: layout, widget: hidden, default: page}
+      - {label: Title, name: title, widget: string}
+      - {label: Content, name: body, widget: markdown }
 
 media_folder: 'assets/screenshot'
 
