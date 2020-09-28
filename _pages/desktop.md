@@ -10,7 +10,7 @@ app_icon: assets/icons/desktop-icon.png
 app_name: Plotagon Studio
 app_price: 
 app_description:
-windows_link: https://plotagon.com/wp-content/uploads/plotagon-downloads/Plotagon%20Studio-1-10-5.exe
+windows_link: https://plotagon-downloads.s3.amazonaws.com/Studio/Plotagon+Studio-1-10-5.exe
 
 links: [
   { "url": "https://admin.plotagon.com", "title": "Login" }
