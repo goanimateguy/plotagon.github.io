@@ -15,7 +15,7 @@ This Privacy Policy is designed to give you full transparency regarding our data
 Unless otherwise stated, Plotagon Production AB is the data controller for personal data we collect through the Services subject to this Privacy Policy. If you have questions regarding this Privacy Policy or your personal data stored with us, including a request for access rectification or deletion, or you object to certain uses, please feel free to contact us e.g. by sending an email to privacy@plotagon.com or write to us at:
 
 Plotagon Production AB
-Grev Turegatan 9, 2tr
+Wallingatan 18
 114 46 Stockholm
 Sweden
 

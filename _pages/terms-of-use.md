@@ -12,7 +12,7 @@ The Services are provided by Plotagon Production AB, a Swedish corporation, and 
 Please note that by entering the Website (defined below) and/or downloading and using the Software (defined below) you agree to abide by these Terms of Use. Plotagon® owns all intellectual property rights in and to the Services and permits you to use the Services only in accordance with these terms. Your use of the Services constitutes your acceptance of the Terms of use. If you do not agree to the Terms of Use, please do not use the Services. If you have any questions or concerns you can contact us at:
 
 > Plotagon Production AB  
-> Grev Turegatan 9, 2tr  
+> Wallingatan 18  
 > 114 46 Stockholm  
 > Sweden
 
@@ -132,7 +132,7 @@ Plotagon® respects the intellectual property of others and expects our users to
 * The Take Down Notice should be submitted to Plotagon® at takedown@plotagon.com and/or by mail to the following address:
 
 > Plotagon Production AB  
-> Grev Turegatan 9, 2tr  
+> Wallingatan 18  
 > 114 46 Stockholm  
 > Sweden
 

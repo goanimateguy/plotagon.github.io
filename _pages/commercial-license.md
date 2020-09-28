@@ -33,7 +33,7 @@ The following terms used in this Agreement have the following meanings: “Agree
 
 “Licensee” means the Party that is granted a License by accepting this Agreement, with address as provided when purchasing the License.
 
-“Licensor” means Plotagon Production AB, reg. no 556935-3237, a limited liability company incorporated under the laws of Sweden, with registered address at Grev Turegatan 9, SE-114 46, Stockholm, Sweden, and having (for the purpose of this Agreement) the email address legal@plotagon.com.
+“Licensor” means Plotagon Production AB, reg. no 556935-3237, a limited liability company incorporated under the laws of Sweden, with registered address at Wallingatan 18, SE-114 46, Stockholm, Sweden, and having (for the purpose of this Agreement) the email address legal@plotagon.com.
 
 “Movies” means an animated video that a User creates as the result of using the Software. “Party/Parties” means the Licensor and the Licensee.
 
