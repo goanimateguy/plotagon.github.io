@@ -39,22 +39,8 @@ header_icon: assets/icons/company-logo-white.png
 				</div>
 				{% endif %}
 				{% if page.platform == 'desktop' %}
-				<div class="desktopPreview">       
-					<div class="desktopWindowHeader">
-						Plotagon Studio
-						<div class="desktopWindowWidgets">
-							<svg version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="10" height="10">
-								<path d="M0 24 L24 24" stroke-width="2" stroke="white"></path>
-							</svg>
-							<svg version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="10" height="10">
-								<path d="M0 0 L0 24 L24 24 L 24 0Z" stroke-width="2" stroke="white" fill="none"></path>
-							</svg>
-							<svg version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="10" height="10">
-								<path d="M0 0 L24 24 M24 0 L 0 24" stroke="white"></path>
-							</svg>
-						</div>
-					</div>                 
-					<img class="desktopScreen" src="{{ 'assets/screenshot/desktop.jpg' | relative_url }}" alt="screenshot">
+				<div class="desktopPreview">
+					<img class="desktopScreen" src="{{ page.desktop_screenshot | relative_url }}" alt="screenshot">
 				</div>
 				{% endif %}
 				<div class="appInfo">
@@ -110,7 +96,7 @@ header_icon: assets/icons/company-logo-white.png
 		</div>
 	</div>
 	<script>
-		window.fwSettings={ 'widget_id':44000000173 };
+		window.fwSettings={ 'widget_id':{{ site.freshworks_widget_id }} };
 		!function(){if("function"!=typeof window.FreshworksWidget){var n=function(){n.q.push(arguments)};n.q=[],window.FreshworksWidget=n}}() 
 	</script>
 	<script type="text/javascript" src="https://widget.freshworks.com/widgets/44000000173.js" async defer></script>
