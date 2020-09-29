@@ -4,6 +4,8 @@ layout: default
 
 redirect_from:
   - /story-mobile-pricing/
+  - /plotagon-story-features/
+  - /story-user-guide/story-create-3d-animated-characters/
 
 platform: phone
 app_icon: /assets/icons/icon.jpg

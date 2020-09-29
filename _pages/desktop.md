@@ -4,6 +4,10 @@ title: Desktop App
 
 redirect_from:
   - /studio-desktop-pricing/
+  - /plotagon-studio-tour/
+  - /plotagon-studio-features/
+  - /user-guide/plotagon-studio-subscriptions/
+  - /faq/
 
 platform: desktop
 app_icon: assets/icons/desktop-icon.png
