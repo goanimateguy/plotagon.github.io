@@ -29,7 +29,7 @@ header_icon: assets/icons/company-logo-white.png
 
 					{% if page.video_mp4 and page.video_ogg %}
 					<div class="videoContainer">
-						<video class="screenvideo" autoplay muted controls loop>
+						<video class="screenvideo" autoplay muted controls loop playsinline>
 							<source src="{{ page.video_mp4 | relative_url }}" type="video/mp4">
 							<source src="{{ page.video_ogg | relative_url }}" type="video/ogg">
 						</video>
