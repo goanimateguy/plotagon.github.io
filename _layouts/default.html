@@ -71,13 +71,13 @@ header_icon: assets/icons/company-logo-white.png
 					{% endif %}
 					<div class="downloadButtonsContainer">
 						{% if page.playstore_link %}
-							<a href="{{page.playstore_link}}"><img class="downloadButton" src="{{ 'assets/platforms/playstore.png' | relative_url }}" alt="google play store link"></a>
+							<a href="{{page.playstore_link}}" role="button" id="appstore"><img class="downloadButton" src="{{ 'assets/platforms/playstore.png' | relative_url }}" alt="google play store link"></a>
 						{% endif %}
 						{% if page.appstore_link %}
-							<a href="{{page.appstore_link}}"><img class="downloadButton" src="{{ 'assets/platforms/appstore.png' | relative_url }}" alt="appstore link"></a>
+							<a href="{{page.appstore_link}}" role="button" id="playstore"><img class="downloadButton" src="{{ 'assets/platforms/appstore.png' | relative_url }}" alt="appstore link"></a>
 						{% endif %}
 						{% if page.windows_link %}
-							<a href="{{page.windows_link}}"><img class="downloadButton" src="{{ 'assets/platforms/windows.png' | relative_url }}" alt="download link"></a>
+							<a href="{{page.windows_link}}" role="button" id="window_download"><img class="downloadButton" src="{{ 'assets/platforms/windows.png' | relative_url }}" alt="download link"></a>
 						{% endif %}
 					</div>
 				</div>
