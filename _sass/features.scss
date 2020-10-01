@@ -18,7 +18,7 @@
 }
 
 .feature:nth-child(-n+3) {
-    padding-top: 0px;  
+	padding-top: 0px;  
 }
 
 .feature:nth-child(3n) {
@@ -31,6 +31,9 @@
 
 .featureText {
 	margin-left: 18px;
+	box-shadow: 0 10px 20px #0002;
+	padding: 20px 5px 20px 20px;
+	border-radius: 10px;
 }
 
 .featureText > h3 {
