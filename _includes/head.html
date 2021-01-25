@@ -13,6 +13,10 @@
 		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 		})(window,document,'script','dataLayer','{{ site.google_tag_id }}');</script>
 	<!-- End Google Tag Manager -->
+	
+	{% if site.ad_sense_id %}
+	<script data-ad-client="{{ site.ad_sense_id }}" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	{% endif %}
 
 	<link rel="shortcut icon" href="{{ site.favicon | relative_url }}">
 

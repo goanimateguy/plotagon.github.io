@@ -9,6 +9,7 @@ enable_smart_app_banner: true
 
 freshworks_widget_id: 44000000173
 google_tag_id: GTM-KJCXG9J
+ad_sense_id: ca-pub-6423792037980923
 
 links: [
   { "url": "/", "title": "Mobile App" },
